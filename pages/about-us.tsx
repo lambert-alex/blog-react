@@ -16,7 +16,7 @@ const AboutUs = () => {
             <section className='container px-3 md:pb-20 md:pt-10 pt-20'>
                 <div className="">
                     <a target="_blank" rel="noopener noreferrer" className="block md:w-[15%] w-[50%] ">
-                        <img src="/images/hiking.jpeg" className="rounded-lg overflow-hidden" />
+                        <img src="/images/hiking.jpeg" alt="Pic of me" className="rounded-lg overflow-hidden" />
                     </a>
                     <Text title className='mb-5 mt-10 dark:text-sky-400 text-sky-600'>
                         Hi I am Alex.
@@ -29,7 +29,7 @@ const AboutUs = () => {
                         This blog is made with <a href="https://react.dev/" className="underline font-bold">React</a> a free open-source JavaScript library. The code for the basic template of this blog
                         was modified from of an open-source template that can be found <a href="https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss" className="underline font-bold">here</a>.
                         If you wish to see the changes I made you can see my repo <a href="https://github.com/lambert-alex/blog-react" className="underline font-bold">here</a>.
-                        <br/>This blog is hosted for free via <a href="https://pages.github.com/" className="underline font-bold">Github Pages</a>.
+                        <br/>This blog is hosted for free via <a href="https://console.firebase.google.com/" className="underline font-bold">FireBase</a>.
                     </Text>
                     <div className="flex flex-wrap justify-between">
                         <div className="md:w-auto w-full my-5">

@@ -7,8 +7,7 @@
     "build": "next build",
     "start-prod": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "out": "next build && next export"
+    "out": "next build"
   },
   "dependencies": {
     "@uiw/react-textarea-code-editor": "^3.0.2",
