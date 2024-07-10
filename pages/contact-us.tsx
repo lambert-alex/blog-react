@@ -8,7 +8,7 @@ const ContactUs = () => {
         title: 'Contact Us',
         description: 'For any any queries related to this project / template feel free to connect with us on webexpe13@gmail.com',
         keywords: 'webexpx, contact us, webexpe13@gmail.com, next js blog template',
-        author: 'Mayur Nalwala, Rupali Yadav'
+        author: 'ALEX Nalwala, ALEX Yadav'
     } 
     return (
         <PageLayout PAGE_SEO={PAGE_SEO} home>
