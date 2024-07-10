@@ -33,7 +33,7 @@ const Home = () => {
       <div className="container mx-auto lg:px-[15px] px-0">
         <div className={'flex flex-wrap'}>
           <FeaturedArticleSection />
-          <h1 className='px-3 w-full mb-5 text-xl md:text-3xl font-medium'>Coming soon</h1>
+          <h1 className='px-3 w-full mb-5 text-xl md:text-3xl font-medium'>Previous Blog Posts</h1>
           <hr className='border-1 mb-5 w-[98%] mx-auto' />
           <HomeNonFeatureArticles />
         </div>

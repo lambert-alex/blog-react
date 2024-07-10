@@ -3,8 +3,27 @@ import { ALEX } from "./_BLOG_SETUP";
 
 const ARTICLES_LIST: iArticle[] = [
   {
-    path: "/pages/blog/your-first-article.tsx",
+    path: "/pages/blog/blog-post-one.tsx",
     featureArticle: true,
+    preview: {
+      author: ALEX,
+      date: "July 09 2024",
+      articleTitle: "Blog Post 1",
+      tags: "first article",
+      thumbnail: "/public/images/baldface.jpeg",
+      shortIntro:
+        "A short intro into my hopes and experiences with learning",
+      category: "EDCI339",
+    },
+    seo: {
+      keywords:
+        "demo, centered, centered layout, blog page layout, blog page design with centered layout, writing first article, webexpe, webexpe.com",
+      ogImage: "/public/images/baldface.jpeg",
+    },
+  },
+  {
+    path: "/pages/blog/your-first-article.tsx",
+    featureArticle: false,
     preview: {
       author: ALEX,
       date: "July 09 2024",
@@ -13,7 +32,7 @@ const ARTICLES_LIST: iArticle[] = [
       thumbnail: "/public/images/elcapitan.jpeg",
       shortIntro:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      category: "tutorial",
+      category: "EDCI339",
     },
     seo: {
       keywords:
