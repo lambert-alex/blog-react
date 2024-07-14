@@ -3,8 +3,27 @@ import { ALEX } from "./_BLOG_SETUP";
 
 const ARTICLES_LIST: iArticle[] = [
   {
-    path: "/pages/blog/blog-post-one.tsx",
+    path: "/pages/blog/blog-post-two.tsx",
     featureArticle: true,
+    preview: {
+      author: ALEX,
+      date: "July 14 2024",
+      articleTitle: "My experiences with open learning theories blog post 2",
+      tags: "blog post 2",
+      thumbnail: "/public/images/csc370.png",
+      shortIntro:
+        "My experiences with open learning",
+      category: "EDCI339",
+    },
+    seo: {
+      keywords:
+        "demo, centered, centered layout, blog page layout, blog page design with centered layout, writing first article, webexpe, webexpe.com",
+      ogImage: "/public/images/baldface.jpeg",
+    },
+  },
+  {
+    path: "/pages/blog/blog-post-one.tsx",
+    featureArticle: false,
     preview: {
       author: ALEX,
       date: "July 09 2024",
