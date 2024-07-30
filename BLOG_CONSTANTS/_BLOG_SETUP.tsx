@@ -91,7 +91,7 @@ export const PRIMARY_NAV: iNavSetup = {
         },
         {
             label: 'Github Repo',
-            path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
+            path: 'https://github.com/',
             newTab: true
         },
     ],
@@ -105,7 +105,7 @@ export const PRIMARY_NAV: iNavSetup = {
             icon: <AiFillInstagram />
         },
         {
-            link: 'https://twitter.com/WebExpe',
+            link: 'https://twitter.com/',
             icon: <AiOutlineTwitter />
         },
     ]
@@ -117,6 +117,6 @@ export const DEFAULT_SEO: iSEO = {
     keywords: "Blog, edci",
     url: WEBSITE_URL,
     author: `${ALEX.name}`,
-    twitterHandle: '@WebExpe',
+    twitterHandle: '',
     ogImage: '/public/images/elcapitan.jpeg'
 }

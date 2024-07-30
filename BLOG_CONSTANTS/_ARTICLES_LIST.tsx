@@ -3,8 +3,66 @@ import { ALEX } from "./_BLOG_SETUP";
 
 const ARTICLES_LIST: iArticle[] = [
   {
-    path: "/pages/blog/blog-post-two.tsx",
+    path: "/pages/blog/blog-post-four.tsx",
     featureArticle: true,
+    preview: {
+      author: ALEX,
+      date: "July 29 2024",
+      articleTitle: "Privacy, Ethics and Digital Learning Blog Post 4.",
+      tags: "blog post 4",
+      thumbnail: "/public/images/computer_chip.jpg",
+      shortIntro:
+        "Some thoughts on Privacy, Ethics and Digital Learning",
+      category: "EDCI339",
+    },
+    seo: {
+      keywords:
+        "demo, centered, centered layout, blog page layout, blog page design with centered layout, writing first article,",
+      ogImage: "/public/images/computer_chip.jpeg",
+    },
+  },
+  {
+    path: "/pages/blog/blog-post-three.tsx",
+    featureArticle: false,
+    preview: {
+      author: ALEX,
+      date: "July 22 2024",
+      articleTitle: "Publicity vs privacy and instructor guided learning blog post 3",
+      tags: "blog post 3",
+      thumbnail: "/public/images/neetcode.png",
+      shortIntro:
+        "My experiences with open learning",
+      category: "EDCI339",
+    },
+    seo: {
+      keywords:
+        "demo, centered, centered layout, blog page layout, blog page design with centered layout, writing first article,",
+      ogImage: "/public/images/baldface.jpeg",
+    },
+  },
+  {
+    
+    path: "/pages/blog/blog-replies-july-23.tsx",
+    featureArticle: false,
+    preview: {
+      author: ALEX,
+      date: "July 23 2024",
+      articleTitle: "Blog Replies July 2023",
+      tags: "blog post 3",
+      thumbnail: "/public/images/sunset.jpeg",
+      shortIntro:
+        "A copy of my replies for the week.",
+      category: "EDCI339",
+    },
+    seo: {
+      keywords:
+        "demo, centered, centered layout, blog page layout, blog page design with centered layout, writing first article",
+      ogImage: "/public/images/sunset.jpeg",
+    },
+  },
+  {
+    path: "/pages/blog/blog-post-two.tsx",
+    featureArticle: false,
     preview: {
       author: ALEX,
       date: "July 14 2024",

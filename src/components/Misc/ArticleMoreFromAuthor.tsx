@@ -63,7 +63,7 @@ const ArticleMoreFromAuthor = ({
           <p className="border-b border-gray-300 pb-2 mb-3 font-medium w-full">
             More from Author
           </p>
-          <div className={articleGrid ? "flex flex-wrap" : ""}>
+          <div className={articleGrid ? "flex flex-col" : ""}>
             {relatedArticles.slice(0, 3).map((each, i) => (
               <Link href={transformPath(each.path)} key={i} passHref>
                 <div

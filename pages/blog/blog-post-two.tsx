@@ -1,6 +1,7 @@
 /**These are necessary imports / components for the page */
 import { PageLayout } from "../../src/components";
 import YouTube from 'react-youtube';
+import CommentForm from "../../src/components/CommentComponents/CommentSection";
 
 const Article = () => {
     return (
@@ -30,6 +31,7 @@ const Article = () => {
                 <YouTube videoId="4CFuTsoicME"/>
             </div>
             {/* Replace the above content with your content */}
+            <CommentForm blog_id={1}/>
         </PageLayout>
     )
 }
